@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Tolexia/nft-preview-card-component)
+- Live Site URL: [Add live site URL here](https://tolexia.github.io/nft-preview-card-component/)
 
 ## My process
 
@@ -54,7 +54,7 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/howto/howto_css_switch.asp) - Remembered how to make a nice switch
+- [w3schools - How to css switch](https://www.w3schools.com/howto/howto_css_switch.asp) - Remembered how to make a nice switch
 
 
 ## Author
