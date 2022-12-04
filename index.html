@@ -10,13 +10,19 @@
 </head>
 <body>
   <div class="container">
+    <div class="switchconainer">
+      <label class="switch">
+        <input type="checkbox" onchange="toggleDarkermode()">
+        <span class="slider round"></span>
+      </label>
+    </div>
     <div class="card">
         <div class="content">
           <div class = "imgcontainer">
             <div class = "imgview">
               <span class = "viewicon"></span>
             </div>
-            <img src="/images/image-equilibrium.jpg" alt="image-qr-code">
+            <img src="/nft-preview-card-component/images/image-equilibrium.jpg" alt="">
           </div>
           <section style="margin-bottom: 1em;">
             <h2 class="text activable">
@@ -41,4 +47,33 @@
     Coded by <a href="#">Tolexia</a>.
   </div>
 </body>
+<script>
+  function toggleDarkermode()
+  {
+    const container = document.querySelector('.container');
+    const card = document.querySelector('.card');
+    if(container != null)
+    {
+      if(container.classList.contains('dark'))
+      {
+        container.classList.remove('dark')
+      }
+      else
+      {
+        container.classList.add('dark')
+      }
+    }
+    if(card != null)
+    {
+      if(card.classList.contains('dark'))
+      {
+        card.classList.remove('dark')
+      }
+      else
+      {
+        card.classList.add('dark')
+      }
+    }
+  }
+</script>
 </html>
