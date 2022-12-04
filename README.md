@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Tolexia/nft-preview-card-component)
-- Live Site URL: [Add live site URL here](https://tolexia.github.io/nft-preview-card-component/)
+- Solution URL: [Github Repo](https://github.com/Tolexia/nft-preview-card-component)
+- Live Site URL: [Github Page](https://tolexia.github.io/nft-preview-card-component/)
 
 ## My process
 
