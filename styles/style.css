@@ -1,0 +1,172 @@
+@font-face {
+    font-family: outfit;
+    src: url('./Outfit-Regular.ttf');
+  }
+  body {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box; 
+    font-family: outfit;
+  }
+  .container {
+    background-color:hsl(216, 50%, 16%);
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    background-color:hsl(215, 32%, 27%);
+    height: fit-content;
+    width: fit-content;
+    box-shadow: 0 30px 40px 5px hsl(217, 54%, 11%);
+  }
+  .content {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    padding:1em;
+  }
+  .card img {
+    max-width:100%;
+    margin: auto;
+  }
+
+  .card img, .card {
+    border-radius: 12px;
+  }
+
+
+  section {
+    margin: auto;
+    text-align: left;
+  }
+
+  h2 {
+    margin: 1em 0 0 0;
+    font-weight: bold;
+    font-size: 25px;
+    color: #fff;
+  }
+
+  p {
+    margin:  1em 0;
+    color: hsl(220, 15%, 55%);
+    font-size: 18px;
+  }
+  
+  .credits {
+    width:100%;
+    color: hsl(215, 51%, 70%);
+    border-top: 1px solid hsl(215, 32%, 27%);
+    padding-top: 1em;
+  }
+
+  .credits::before{
+    display: inline-block;
+    content: "";
+    background-image: url(../images/avatar.jpg);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-right: 1em;
+  }
+
+  .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    position: fixed;
+    bottom: 0;
+    color: hsl(215, 51%, 70%);
+  }
+  .attribution a { 
+    color:#fff; 
+  }
+
+  .eth {
+    color:hsl(178, 100%, 50%);
+    float: left;
+  }
+
+  .timeleft {
+    color:hsl(215, 51%, 70%);
+    float: right;
+  }
+
+  .creator {
+    color:#fff;
+  } 
+
+  .eth::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/icon-ethereum.svg);
+    width: 10px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-right:5px;
+  }
+  .timeleft::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/icon-clock.svg);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+    margin-right:5px;
+  }
+  
+  .activable:hover {
+    color:hsl(178, 100%, 50%);
+    cursor: pointer;
+  }
+
+  .imgcontainer {
+    position: relative;
+    height: 100%;
+  }
+
+  .card .imgview {
+    position: absolute;
+    top:0;
+    right:0;
+    bottom:3px;
+    left:0;
+    background-color: hsl(178, 100%, 50%);
+    opacity:0;
+    border-radius: 12px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:99%;
+    z-index: 1;
+  }
+
+  .viewicon {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/icon-view.svg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .card .imgview:hover{
+    opacity: 0.4;
+  }
