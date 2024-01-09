@@ -1,50 +1,23 @@
-# Frontend Mentor - NFT preview card component solution
+# NFT preview card component 
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a tiny project inspired by the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).  
+The colors asked in the specifications were slightly different so I added a toggle switch from the ones asked to ones I prefered.
 
-## Table of contents
+## Screenshots
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+### What was asked
+![](./nft-preview-card-component_1.png)
+
+### Result
+![](./nft-preview-card-component_2.png)
 
 
-## Overview
+### Link
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
-
-### Screenshot
-
-#### Challenge screenshot
-![](./screenshot_challenge.png)
-
-
-#### Final screenshot
-![](./screenshot_final.png)
-
-
-
-### Links
-
-- Solution URL: [Github Repo](https://github.com/Tolexia/nft-preview-card-component)
 - Live Site URL: [Github Page](https://tolexia.github.io/nft-preview-card-component/)
 
-## My process
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
